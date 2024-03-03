@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-03T09:44:04.433Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="5X4oBuVUWeKfxYLRJvru" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-03T10:08:06.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="w91f-ABblOI2eFpZKGJU" version="24.0.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="941" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2351" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,16 +16,6 @@
             <Array as="points">
               <mxPoint x="180" y="120" />
             </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="Cdip2eXrh4ikWAFANOAO-4" edge="1">
-          <mxGeometry x="-0.1248" relative="1" as="geometry">
-            <mxPoint x="95" y="230" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="190" y="230" />
-            </Array>
-            <mxPoint x="260" y="230" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -91,6 +81,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Cdip2eXrh4ikWAFANOAO-113" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Cdip2eXrh4ikWAFANOAO-11">
+          <mxGeometry x="50" y="210" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="Cdip2eXrh4ikWAFANOAO-106" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Cdip2eXrh4ikWAFANOAO-11" target="Cdip2eXrh4ikWAFANOAO-105">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60.00034482758633" y="420" as="sourcePoint" />
@@ -145,16 +138,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cdip2eXrh4ikWAFANOAO-20" value="token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.1429" relative="1" as="geometry">
-            <mxPoint x="470" y="240" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="575" y="240" />
-            </Array>
-            <mxPoint x="820" y="240" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Cdip2eXrh4ikWAFANOAO-22" value="user" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1020" y="220" as="targetPoint" />
@@ -181,7 +164,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cdip2eXrh4ikWAFANOAO-25" value="&lt;p style=&quot;text-wrap: wrap; line-height: 18px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;sentTokenResponse(user,200,res)&lt;/span&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="Cdip2eXrh4ikWAFANOAO-25" value="&lt;p style=&quot;text-wrap: wrap; background-color: rgb(251, 251, 251); line-height: 18px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;res.status(statusCode).cookied(&#39;token&#39;,token,options).json({success:true,token})&lt;/span&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.1248" relative="1" as="geometry">
             <mxPoint x="100" y="490" as="targetPoint" />
             <Array as="points">
@@ -381,6 +364,31 @@
             <mxPoint x="840" y="410.07" as="targetPoint" />
             <Array as="points" />
             <mxPoint x="1000" y="410.07" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cdip2eXrh4ikWAFANOAO-112" value="&lt;p style=&quot;text-wrap: wrap; background-color: rgb(251, 251, 251); line-height: 18px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;res.status(statusCode).cookied(&#39;token&#39;,token,options).json({success:true,token})&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1248" relative="1" as="geometry">
+            <mxPoint x="97.5" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="192.5" y="280" />
+            </Array>
+            <mxPoint x="822.5" y="280" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cdip2eXrh4ikWAFANOAO-115" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="250" as="sourcePoint" />
+            <mxPoint x="840" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="250" />
+              <mxPoint x="880" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cdip2eXrh4ikWAFANOAO-116" value="&lt;span style=&quot;font-size: 10px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;sendTokenResponse(user,200,res)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cdip2eXrh4ikWAFANOAO-115">
+          <mxGeometry x="0.0086" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
